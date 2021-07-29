@@ -1,11 +1,33 @@
 import styled from 'styled-components'
 
+export const HomeContainer = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+`
+
 export const Container = styled.div`
     width: 100vw;
-    height: 100vh;
     display: flex;
-    align-itens: center;
+    align-items: center;
     justify-content: center;
+`
+
+export const msgError = styled.p`
+    display: block;
+    font-size: 1rem;
+    color: red;
+    font-weight: 600;
+    margin-top: 1rem;
+`
+export const msg = styled.p`
+    display: block;
+    font-size: 1rem;
+    color: green;
+    font-weight: 600;
+    margin-top: 1rem;
 `
 
 export const Input = styled.input`
